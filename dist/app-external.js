@@ -5,6 +5,9 @@ let ExternalComponent = class extends HTMLElement {
     super();
     this.__registerHost();
   }
+  componentDidLoad() {
+    console.log("Yee, app-external did load!");
+  }
   render() {
     return h("div", null, "Hi there! I was made by \"dist-custom-elements\" output.");
   }

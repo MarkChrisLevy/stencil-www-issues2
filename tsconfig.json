@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "allowUnreachableCode": false,
+        "declaration": false,
+        "experimentalDecorators": true,
+        "resolveJsonModule": true,
+        "useDefineForClassFields": false,
+        "lib": [
+            "dom",
+            "es2017",
+            "es2018",
+            "es2019",
+            "es2020"
+        ],
+        "moduleResolution": "node",
+        "module": "esnext",
+        "target": "es2020",
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "jsx": "react",
+        "jsxFactory": "h",
+        "jsxFragmentFactory": "Fragment"
+    },
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "name": "ionx",
+    "version": "1.0.0",
+    "scripts": {
+        "build": "stencil build"
+    },
+    "devDependencies": {
+        "@stencil/core": "^2.12.1",
+        "typescript": "^4.5.4"
+    },
+    "main": "dist/app-external.js"
+}

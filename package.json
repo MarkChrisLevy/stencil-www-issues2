@@ -1,5 +1,5 @@
 {
-    "name": "ionx",
+    "name": "app-external",
     "version": "1.0.0",
     "scripts": {
         "build": "stencil build"
